@@ -1,0 +1,142 @@
+/* General */
+:root {
+  --border-radius: 4px;
+  --border-radius2x: 8px;
+  --default: #777; /* Retained as a neutral grey for fallback text */
+}
+
+/* Skin Colors */
+:root {
+  --primary: #052F2A; /* Dark Green: Primary color, grounding and sophisticated */
+  --primary-100: #042620; /* Darker shade for depth */
+  --primary-200: #031D18; /* Even darker for hover effects */
+  --primary-300: #021410; /* Deepest shade for subtle accents */
+  --primary--100: #0A3F37; /* Lighter shade for hover states */
+  --primary--200: #104F44; /* Lighter for gradients or backgrounds */
+  --primary--300: #165F51; /* Lightest primary variant for subtle highlights */
+  --primary-rgba-0: rgba(5, 47, 42, 0);
+  --primary-rgba-10: rgba(5, 47, 42, 0.1);
+  --primary-rgba-20: rgba(5, 47, 42, 0.2);
+  --primary-rgba-30: rgba(5, 47, 42, 0.3);
+  --primary-rgba-40: rgba(5, 47, 42, 0.4);
+  --primary-rgba-50: rgba(5, 47, 42, 0.5);
+  --primary-rgba-60: rgba(5, 47, 42, 0.6);
+  --primary-rgba-70: rgba(5, 47, 42, 0.7);
+  --primary-rgba-80: rgba(5, 47, 42, 0.8);
+  --primary-rgba-90: rgba(5, 47, 42, 0.9);
+
+  --secondary: #BCE318; /* Lemon: Vibrant accent for CTAs and highlights */
+  --secondary-100: #A9CF14; /* Slightly darker for depth */
+  --secondary-200: #96BB10; /* Darker for hover effects */
+  --secondary-300: #83A70C; /* Deepest lemon shade */
+  --secondary--100: #C8EB34; /* Lighter for hover states */
+  --secondary--200: #D4F350; /* Lighter for gradients */
+  --secondary--300: #E0FB6C; /* Lightest lemon variant */
+  --secondary-rgba-0: rgba(188, 227, 24, 0);
+  --secondary-rgba-10: rgba(188, 227, 24, 0.1);
+  --secondary-rgba-20: rgba(188, 227, 24, 0.2);
+  --secondary-rgba-30: rgba(188, 227, 24, 0.3);
+  --secondary-rgba-40: rgba(188, 227, 24, 0.4);
+  --secondary-rgba-50: rgba(188, 227, 24, 0.5);
+  --secondary-rgba-60: rgba(188, 227, 24, 0.6);
+  --secondary-rgba-70: rgba(188, 227, 24, 0.7);
+  --secondary-rgba-80: rgba(188, 227, 24, 0.8);
+  --secondary-rgba-90: rgba(188, 227, 24, 0.9);
+
+  --tertiary: #E6F0D9; /* Soft Cream: Neutral background, inspired by nature */
+  --tertiary-100: #D9E6C6; /* Slightly darker cream */
+  --tertiary-200: #CCDDB3; /* Darker for depth */
+  --tertiary-300: #BFD3A0; /* Deepest cream shade */
+  --tertiary--100: #F2F7E5; /* Lighter for hover states */
+  --tertiary--200: #F8FBEE; /* Very light for backgrounds */
+  --tertiary--300: #FEFFF8; /* Near-white for subtle highlights */
+  --tertiary-rgba-0: rgba(230, 240, 217, 0);
+  --tertiary-rgba-10: rgba(230, 240, 217, 0.1);
+  --tertiary-rgba-20: rgba(230, 240, 217, 0.2);
+  --tertiary-rgba-30: rgba(230, 240, 217, 0.3);
+  --tertiary-rgba-40: rgba(230, 240, 217, 0.4);
+  --tertiary-rgba-50: rgba(230, 240, 217, 0.5);
+  --tertiary-rgba-60: rgba(230, 240, 217, 0.6);
+  --tertiary-rgba-70: rgba(230, 240, 217, 0.7);
+  --tertiary-rgba-80: rgba(230, 240, 217, 0.8);
+  --tertiary-rgba-90: rgba(230, 240, 217, 0.9);
+
+  --quaternary: #4A704B; /* Forest Green: Complementary green for secondary accents */
+  --quaternary-100: #406241; /* Darker forest green */
+  --quaternary-200: #365437; /* Darker for depth */
+  --quaternary-300: #2C462D; /* Deepest forest green */
+  --quaternary--100: #5E7F5F; /* Lighter for hover states */
+  --quaternary--200: #728E73; /* Lighter for gradients */
+  --quaternary--300: #869D87; /* Lightest forest green variant */
+  --quaternary-rgba-0: rgba(74, 112, 75, 0);
+  --quaternary-rgba-10: rgba(74, 112, 75, 0.1);
+  --quaternary-rgba-20: rgba(74, 112, 75, 0.2);
+  --quaternary-rgba-30: rgba(74, 112, 75, 0.3);
+  --quaternary-rgba-40: rgba(74, 112, 75, 0.4);
+  --quaternary-rgba-50: rgba(74, 112, 75, 0.5);
+  --quaternary-rgba-60: rgba(74, 112, 75, 0.6);
+  --quaternary-rgba-70: rgba(74, 112, 75, 0.7);
+  --quaternary-rgba-80: rgba(74, 112, 75, 0.8);
+  --quaternary-rgba-90: rgba(74, 112, 75, 0.9);
+
+  --dark: #1A2A26; /* Deep Charcoal: Darker neutral for backgrounds */
+  --dark-100: #15221F; /* Slightly darker */
+  --dark-200: #101A18; /* Darker for depth */
+  --dark-300: #0B1210; /* Deepest charcoal */
+  --dark--100: #253632; /* Lighter for hover states */
+  --dark--200: #30423E; /* Lighter for gradients */
+  --dark--300: #3B4E4A; /* Lightest charcoal variant */
+  --dark-rgba-0: rgba(26, 42, 38, 0);
+  --dark-rgba-10: rgba(26, 42, 38, 0.1);
+  --dark-rgba-20: rgba(26, 42, 38, 0.2);
+  --dark-rgba-30: rgba(26, 42, 38, 0.3);
+  --dark-rgba-40: rgba(26, 42, 38, 0.4);
+  --dark-rgba-50: rgba(26, 42, 38, 0.5);
+  --dark-rgba-60: rgba(26, 42, 38, 0.6);
+  --dark-rgba-70: rgba(26, 42, 38, 0.7);
+  --dark-rgba-80: rgba(26, 42, 38, 0.8);
+  --dark-rgba-90: rgba(26, 42, 38, 0.9);
+
+  --light: #FFFFFF; /* Pure White: Clean text and backgrounds */
+  --light-100: #F7F7; /* Slightly off-white for contrast */
+  --light-200: #EFEFEF; /* Light gray for depth */
+  --light-300: #E7E7E7; /* Slightly darker white */
+  --light--100: #FFFFFF; /* Pure white for consistency */
+  --light--200: #FFFFFF;
+  --light--300: #FFFFFF;
+  --light-rgba-0: rgba(255, 255, 255, 0);
+  --light-rgba-10: rgba(255, 255, 255, 0.1);
+  --light-rgba-20: rgba(255, 255, 255, 0.2);
+  --light-rgba-30: rgba(255, 255, 255, 0.3);
+  --light-rgba-40: rgba(255, 255, 255, 0.4);
+  --light-rgba-50: rgba(255, 255, 255, 0.5);
+  --light-rgba-60: rgba(255, 255, 255, 0.6);
+  --light-rgba-70: rgba(255, 255, 255, 0.7);
+  --light-rgba-80: rgba(255, 255, 255, 0.8);
+  --light-rgba-90: rgba(255, 255, 255, 0.9);
+}
+
+/* Skin Colors - Inverse */
+:root {
+  --primary-inverse: #FFFFFF; /* White for text on primary dark green */
+  --secondary-inverse: #052F2A; /* Dark green for text on lemon yellow */
+  --tertiary-inverse: #052F2A; /* Dark green for text on cream */
+  --quaternary-inverse: #FFFFFF; /* White for text on forest green */
+  --dark-inverse: #FFFFFF; /* White for text on dark charcoal */
+  --light-inverse: #052F2A; /* Dark green for text on white */
+}
+
+/* Grey Colors */
+:root {
+  --grey: #969696; /* Neutral grey for text */
+  --grey-100: #F4F4F4; /* Light grey for backgrounds */
+  --grey-200: #EAEAEA; /* Slightly darker grey */
+  --grey-300: #E5E5E5; /* Medium grey for borders */
+  --grey-400: #E0E0E0; /* Darker grey for dividers */
+  --grey-500: #DBDBDB; /* Darker for subtle accents */
+  --grey-600: #CECECE; /* Medium-dark grey */
+  --grey-700: #C1C1C1; /* Darker grey for text */
+  --grey-800: #A8A8A8; /* Dark grey for icons */
+  --grey-900: #8E8E8E; /* Darker grey for emphasis */
+  --grey-1000: #757575; /* Darkest grey for fallback */
+}
