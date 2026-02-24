@@ -7696,7 +7696,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 }
 
 .feature-box.feature-box-style-2 .feature-box-icon [class*="fa-"], .feature-box.feature-box-style-2 .feature-box-icon .icons {
-	color: var(--primary);
+	color: wheat;
 }
 
 .feature-box-primary.feature-box-style-2 .feature-box-icon [class*="fa-"], .feature-box-primary.feature-box-style-2 .feature-box-icon .icons {
@@ -15705,7 +15705,7 @@ html.lightbox-opened .scroll-to-top {
 section.section {
 	background: var(--grey-100);
 	border-top: 5px solid var(--grey-100);
-	margin: 30px 0;
+	/* margin: 30xpx 0; */
 	padding: 50px 0;
 }
 
@@ -15829,7 +15829,7 @@ section.section.section-angled .section-angled-layer-bottom {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 100%;
+	/* width: 100%; */
 	padding: 48px 0;
 	padding: 3rem 0;
 	transform: skewY(0.7deg) translate3d(0, 50%, 0);
